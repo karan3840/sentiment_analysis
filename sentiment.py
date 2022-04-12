@@ -42,4 +42,8 @@ fig, ax1 = plt.subplots()
 ax1.bar(['Positive', 'Negative','Neutral'], [p_count, n_count,z_count])
 fig.autofmt_xdate()
 
+
+
+ans = sentiment("the food here taste so bad")
+print(ans)
 plt.show()
